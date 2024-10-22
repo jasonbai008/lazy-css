@@ -1,0 +1,40 @@
+/* 
+    Lazy CSS
+    Author: Jason Bai 
+*/
+
+/* Flexible Layout */
+.flex {
+  display: flex;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+/* Text Alignment */
+.textCenter {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.verticalCenter {
+  vertical-align: middle;
+}
