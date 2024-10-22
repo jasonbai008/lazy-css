@@ -19,10 +19,12 @@
 .flexCenter
 .justifyCenter
 .alignCenter
+
 /* 文本水平对齐 */
 .textCenter
 .textLeft
 .textRight
+
 /* 外间距 */
 .m0
 .m5
@@ -49,6 +51,7 @@
 .ml10
 .ml15
 .ml20
+
 /* 内间距 */
 .p0
 .p5
