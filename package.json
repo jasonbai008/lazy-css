@@ -1,0 +1,22 @@
+{
+  "name": "lazy-man-css",
+  "version": "1.0.0",
+  "description": "css used by lazy man",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonbai008/lazy-man-css.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "JasonBai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonbai008/lazy-man-css/issues"
+  },
+  "homepage": "https://github.com/jasonbai008/lazy-man-css#readme"
+}
