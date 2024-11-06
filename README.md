@@ -1,15 +1,28 @@
 # lazy-man-css
-懒人工具CSS
+懒人CSS工具箱
 
 ## How to use
 
-```html
-<link rel="stylesheet" href="https://jasonbai008.github.io/lazy-man-css/index.css">
+Using npm:
+```sh
+npm install lazy-man-css
+# in your main.js
+import "lazy-man-css"
 ```
 
+Using CDN:
+```html
+<link rel="stylesheet" href="https://unpkg.com/lazy-man-css@2.0.0/index.css">
+```
+
+In HTML:
 ```html
 <div class="textCenter">文字水平居中</div>
 ```
+
+## Useful Links
+
+- [如何在npm上发自己的包](https://zhuanlan.zhihu.com/p/215842050)
 
 ## Useful Classes
 
