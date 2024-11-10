@@ -1,6 +1,8 @@
 /* 
-    Lazy Man CSS
-    Author: Jason Bai 
+  Lazy Man CSS
+  Author: Jason Bai 
+  Publish Date: 2024-10-22
+  Github: https://github.com/jasonbai008/lazy-man-css
 */
 
 /* Flexible Layout */
@@ -35,8 +37,18 @@
   text-align: right;
 }
 
-/* Margins & Paddings */
+.textMiddle {
+  vertical-align: middle;
+}
 
+/* Single-line ellipsis */
+.slh {
+  white-space: nowrap;        /* Prevent line breaks */
+  overflow: hidden;           /* Hide overflow content */
+  text-overflow: ellipsis;    /* Display ellipsis for overflow content */
+}
+
+/* Margins & Paddings */
 .m0 {
   margin: 0;
 }

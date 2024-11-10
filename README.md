@@ -1,5 +1,7 @@
 # lazy-man-css
-懒人CSS工具箱
+
+A commonly used CSS toolkit for lazy people, like me.  
+懒人工具CSS合集
 
 ## How to use
 
@@ -12,17 +14,19 @@ import "lazy-man-css"
 
 Using CDN:
 ```html
-<link rel="stylesheet" href="https://unpkg.com/lazy-man-css@2.0.0/index.css">
+<link rel="stylesheet" href="https://unpkg.com/lazy-man-css@3.0.0/index.css">
 ```
 
 In HTML:
 ```html
 <div class="textCenter">文字水平居中</div>
+<div class="textMiddle">文字垂直居中</div>
+<div class="slh">省略号...</div>
 ```
 
 ## Useful Links
 
-- [如何在npm上发自己的包](https://zhuanlan.zhihu.com/p/215842050)
+- [How to publish your own package on npm](https://zhuanlan.zhihu.com/p/215842050)
 
 ## Useful Classes
 
@@ -33,10 +37,14 @@ In HTML:
 .justifyCenter
 .alignCenter
 
-/* 文本水平对齐 */
+/* 文本对齐 */
 .textCenter
 .textLeft
 .textRight
+.textMiddle
+
+/* 单行省略号 */
+.slh
 
 /* 外间距 */
 .m0
